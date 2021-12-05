@@ -1,6 +1,6 @@
 import { input } from "./puzzleInput.js";
 let coordinates = input;
-coordinates = coordinates.split("\n").map(Number);;
+coordinates = coordinates.split("\n").map(Number);
 
 console.log("Part One: " + partOne());
 console.log("Part Two: " + partTwo());
